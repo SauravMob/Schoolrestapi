@@ -1,0 +1,24 @@
+#{extends 'main.html' /}
+
+#{form @College.post()}
+  <p>
+    <label for="firstname">First Name: </label>
+    <input type="text" name="firstname" id="firstname" value="${params.firstname}" />
+  </p>
+  <p>
+    <label for="lastname">Last Name: </label>
+    <input type="text" name="lastname" id="lastname" value="${params.lastname}" />
+  <p>
+    <label for="age">Age: </label>
+    <input type="number" name="age" id="age" value="${params.age}" />
+  </p>
+  </p>
+  <p>
+    <label for="department">Department: </label>
+    <input type="text" name="department" id="department" value="${params.department}" />
+  </p>
+  <p>
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Cancel" />
+  </p>
+#{/form}
