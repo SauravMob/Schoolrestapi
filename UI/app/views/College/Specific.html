@@ -1,0 +1,12 @@
+#{extends 'main.html' /}
+
+<form action="@{College.get1}">
+  <p>
+    <label for="id">Specify Id of student: </label>
+    <input type="number" id="id" name="id" value="${params.id}" />
+  </p>
+  <p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+  </p>
+</form>

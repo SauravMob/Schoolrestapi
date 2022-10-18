@@ -7,6 +7,8 @@ GET     /                                       Application.index
 GET     /get                                    College.get
 GET     /get1/{id}                              College.get1
 GET     /register                               College.register
+GET     /page                                   College.page
+GET     /Specific                               College.Specific
 POST    /college/post                           College.post
 
 # Ignore favicon requests

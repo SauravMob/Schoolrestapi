@@ -1,0 +1,16 @@
+#{extends 'main.html' /}
+
+<form action="@{College.get}">
+    <p>
+        <label for="page">Specify Page: </label>
+        <input type="number" id="page" name="page" value="${params.page}" />
+    </p>
+    <p>
+        <label for="number">Specify Number of data: </label>
+        <input type="number" id="number" name="Number" value="${params.Number}">
+    </p>
+    <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+    </p>
+</form>
