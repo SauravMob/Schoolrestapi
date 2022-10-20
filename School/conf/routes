@@ -9,6 +9,9 @@ GET     /                                       Application.index
 GET     /Department/list                        Department.list
 POST    /Department/admission                   Department.admission
 GET     /Department/student/{Id}                Department.student
+GET     /Department/mem                         Department.mem
+
+GET     /Scheduler/main                          Scheduler.main
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
