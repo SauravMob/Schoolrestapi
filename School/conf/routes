@@ -11,7 +11,9 @@ POST    /Department/admission                   Department.admission
 GET     /Department/student/{Id}                Department.student
 GET     /Department/mem                         Department.mem
 
-GET     /Scheduler/main                          Scheduler.main
+GET     /Scheduler/main                         Scheduler.main
+GET     /Scheduler/view                         Scheduler.view
+GET     /Scheduler/all                      Scheduler.all
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

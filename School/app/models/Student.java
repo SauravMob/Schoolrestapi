@@ -24,6 +24,9 @@ public class Student extends GenericModel {
     @Column(name = "Department")
     public String department;
 
+    public Student() {
+    }
+
     public Student(int id, String firstname, String lastname, int age, String department)
     {
         this.firstname = firstname;
